@@ -47,9 +47,10 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { LoginComponent } from "./login/login.component";
 import { HomeComponent } from "./home/home.component";
+import { LayoutNewComponent } from './layout-new/layout-new.component';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, HomeComponent],
+  declarations: [AppComponent, LoginComponent, HomeComponent, LayoutNewComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
