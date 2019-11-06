@@ -48,7 +48,7 @@ import { AppComponent } from "./app.component";
 import { LoginComponent } from "./login/login.component";
 import { HomeComponent } from "./home/home.component";
 import { LayoutNewComponent } from "./layout-new/layout-new.component";
-import { FlowStaticComponent } from "./flow-static/flow-static.component";
+import { PositionStaticComponent } from "./position-static/position-static.component";
 
 @NgModule({
   declarations: [
@@ -56,7 +56,7 @@ import { FlowStaticComponent } from "./flow-static/flow-static.component";
     LoginComponent,
     HomeComponent,
     LayoutNewComponent,
-    FlowStaticComponent
+    PositionStaticComponent
   ],
   imports: [
     BrowserModule,
